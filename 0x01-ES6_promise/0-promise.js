@@ -3,11 +3,10 @@
  * @returns {Promise} A Promise.
  */
 export default function getResponseFromAPI() {
-  return new Promise((reject) => {
+  return new Promise((resolve) => {
     // Simulating API response after 1 second
-    // setTimeout(() => {
-    //   resolve('API response data');
-    // }, 1000);
-    reject(5);
+    setTimeout(() => {
+      resolve('API response data');
+    }, 1000);
   });
 }
