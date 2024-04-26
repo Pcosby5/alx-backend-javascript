@@ -68,8 +68,6 @@
 // const hc = new HolbertonClass(12, "Mezzanine")
 // console.log(Number(hc));
 // console.log(String(hc));
-
-
 // import listOfStudents from "./9-hoisting.js";
 
 // console.log(listOfStudents);
@@ -80,11 +78,11 @@
 
 // console.log(listPrinted)
 
-import Car from "./10-car.js";
+import Car from './10-car';
 
 class TestCar extends Car {}
 
-const tc1 = new TestCar("Nissan", "Turbo", "Pink");
+const tc1 = new TestCar('Nissan', 'Turbo', 'Pink');
 const tc2 = tc1.cloneCar();
 
 console.log(tc1);
