@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "Commonjs",
+        "target": "es5",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "strict": true,
+        "esModuleInterop": true
+    }
+}
+// {
+//     "compilerOptions": {
+//         "target": "es5",
+//         "module": "commonjs",
+//         "strict": true,
+//         "esModuleInterop": true
+//     }
+// }
