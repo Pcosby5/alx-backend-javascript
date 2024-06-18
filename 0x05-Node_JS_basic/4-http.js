@@ -1,7 +1,7 @@
 const http = require('http');
 
 // Define the host and port for the server
-const host = '127.0.0.1';
+const hostname = '127.0.0.1';
 const port = 1245;
 
 // Create a new HTTP server instance
@@ -15,7 +15,7 @@ const app = http.createServer((req, res) => {
 });
 
 // Start the server and make it listen on the specified port and host
-app.listen(port, host, () => {
+app.listen(port, hostname, () => {
   console.log(`Server running at http://${host}:${port}/`);
 });
 
