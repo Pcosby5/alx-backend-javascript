@@ -1,0 +1,15 @@
+{
+  "name": "alx-backend-javascript",
+  "version": "1.0.0",
+  "description": "Testing with Mocha and Node assertion library",
+  "main": "0-calcul.js",
+  "scripts": {
+    "test": "mocha '0-calcul.test.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
